@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
     
+    <div class="app">
+        <h1>備忘錄</h1>
+        <p>記事</p>
+        <input type="text" id="content"/>
+        <p>日期</p>
+        <input type="text" id="time"/>
+        <p>時間</p>
+        <button class="add" id="addedBtn">新增</button>
+        <button class="remove" id="deletdBtn">刪除最後一個</button>
+        <div class="list" id="list">
+            <div class="item">
+                <div>
+                    <p>內容：</p>
+                    <p>時間：</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
 </body>
 </html>
